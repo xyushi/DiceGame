@@ -1,0 +1,54 @@
+
+body {
+    
+    background-image: url("https://img.freepik.com/free-vector/3d-rendering-dices-illustration_52683-75998.jpg?w=1060&t=st=1657120117~exp=1657120717~hmac=fa83aba5262ae72272fdeea45692ec48fbfa91459da88dcd1bbe43f051a47356");
+    background-size: cover;
+}
+
+.box {
+margin-top: 200px;
+    background-color: azure;
+    width: 500px;
+    height: 340px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.inner-box {
+    color: black;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 100px;
+    text-align: center; 
+}
+
+.head {
+    font-size: 28px;
+    font-family: Garamond, serif;
+    color: rgb(46, 143, 228);
+}
+
+.subhead {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.but1 {
+    font-size: 18px;
+    font-family: Copperplate, Papyrus, fantasy;
+    border: none;
+    background-color: rgb(34, 31, 31);
+    transition: 0.3s;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(46, 143, 228);
+}
+
+.but1:hover {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    color: rgb(66, 56, 56);
+}
