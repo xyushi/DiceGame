@@ -13,7 +13,10 @@ function roll() {
         turn = 2;
         document.getElementById('val1').innerText = ' ' + player1;
         if (player1 >= target) {
-            document.getElementById('val4').innerText = 'Player 1 Wins!';
+            alert("Player 1 Wins!")
+            setTimeout(function(){
+                window.location.reload(1);
+            }, 1);
         }
     }
     else if (turn === 2) {
@@ -21,7 +24,10 @@ function roll() {
         turn = 1;
         document.getElementById('val2').innerText = ' ' + player2;
         if (player2 >= target) {
-            document.getElementById('val4').innerText = 'Player 2 Wins!';
+            alert("Player 2 wins!")
+            setTimeout(function(){
+                window.location.reload(1);
+            }, 1);
         }
     }
 }
